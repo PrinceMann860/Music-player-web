@@ -1,0 +1,91 @@
+/* Discover Page Specific Styles */
+.discover-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 1.5rem;
+  margin-top: 1rem;
+}
+
+.discover-card {
+  background: var(--color-gray);
+  border-radius: 10px;
+  overflow: hidden;
+  transition: var(--transition);
+}
+
+.discover-card:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--shadow-hover);
+}
+
+.card-image {
+  height: 150px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.card-image .play-btn {
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
+  opacity: 0;
+  transition: var(--transition);
+}
+
+.discover-card:hover .play-btn {
+  opacity: 1;
+}
+
+.card-info {
+  padding: 1rem;
+}
+
+.card-info h3 {
+  font-size: 1.1rem;
+  margin-bottom: 0.3rem;
+  color: var(--color-white);
+}
+
+.card-info p {
+  font-size: 0.9rem;
+  color: var(--color-text-secondary);
+}
+
+/* Responsive Styles for Discover Page */
+@media (max-width: 1200px) {
+  .discover-grid {
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  }
+}
+
+@media (max-width: 992px) {
+  .discover-grid {
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  }
+}
+
+@media (max-width: 768px) {
+  .discover-grid {
+    grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+    gap: 1rem;
+  }
+  
+  .card-image {
+    height: 120px;
+  }
+}
+
+@media (max-width: 576px) {
+  .discover-grid {
+    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+  }
+  
+  .card-info h3 {
+    font-size: 1rem;
+  }
+  
+  .card-info p {
+    font-size: 0.8rem;
+  }
+}

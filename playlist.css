@@ -1,0 +1,91 @@
+/* Playlists Page Specific Styles */
+.playlists-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 1.5rem;
+  margin-top: 1rem;
+}
+
+.playlist-card {
+  background: var(--color-gray);
+  border-radius: 10px;
+  overflow: hidden;
+  transition: var(--transition);
+}
+
+.playlist-card:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--shadow-hover);
+}
+
+.playlist-image {
+  height: 160px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.playlist-image .play-btn {
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
+  opacity: 0;
+  transition: var(--transition);
+}
+
+.playlist-card:hover .play-btn {
+  opacity: 1;
+}
+
+.playlist-info {
+  padding: 1rem;
+}
+
+.playlist-info h3 {
+  font-size: 1.1rem;
+  margin-bottom: 0.3rem;
+  color: var(--color-white);
+}
+
+.playlist-info p {
+  font-size: 0.9rem;
+  color: var(--color-text-secondary);
+}
+
+/* Responsive Styles for Playlists Page */
+@media (max-width: 1200px) {
+  .playlists-grid {
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  }
+}
+
+@media (max-width: 992px) {
+  .playlists-grid {
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  }
+}
+
+@media (max-width: 768px) {
+  .playlists-grid {
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 1rem;
+  }
+  
+  .playlist-image {
+    height: 120px;
+  }
+}
+
+@media (max-width: 576px) {
+  .playlists-grid {
+    grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+  }
+  
+  .playlist-info h3 {
+    font-size: 1rem;
+  }
+  
+  .playlist-info p {
+    font-size: 0.8rem;
+  }
+}

@@ -1,94 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Modern Music Player</title>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Material+Icons" rel="stylesheet">
-  <link rel="stylesheet" href="Style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BeatVibe</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Material+Icons" rel="stylesheet" />
+  <link rel="stylesheet" href="Style.css" />
+  <link rel="stylesheet" href="home.css">
 </head>
 <body>
   <!-- Top Navigation Bar -->
   <nav class="top-nav">
-    <div class="logo">Harmony</div>
+    <div class="logo">
+      <span class="material-icons">music_note</span>
+      <span>BeatVibe</span>
+    </div>
     <div class="nav-links">
-      <a href="#" class="active">Home</a>
-      <a href="#">Discover</a>
-      <a href="#">Genres</a>
-      <a href="#">Artists</a>
-      <a href="#">My Playlists</a>
+      <a href="#" class="active"><span class="material-icons">home</span> Home</a>
+      <a href="discover.html"><span class="material-icons">explore</span> Discover</a>
+      <a href="generes.html"><span class="material-icons">queue_music</span> Genres</a>
+      <a href="artists.html"><span class="material-icons">people</span> Artists</a>
+      <a href="playlist.html"><span class="material-icons">playlist_play</span> Playlists</a>
     </div>
     <div class="search-box">
-      <input type="text" placeholder="Search songs, artists...">
       <span class="material-icons">search</span>
+      <input type="text" class="searchInput" placeholder="Search songs, artists..." />
     </div>
     <button class="mobile-menu-toggle">
       <span class="material-icons">menu</span>
     </button>
   </nav>
 
-  <!-- Mobile Menu (hidden by default) -->
+  <!-- Mobile Menu -->
   <div class="mobile-menu">
-    <a href="#" class="active">Home</a>
-    <a href="#">Discover</a>
-    <a href="#">Genres</a>
-    <a href="#">Artists</a>
-    <a href="#">My Playlists</a>
+    <a href="#"><span class="material-icons">home</span> Home</a>
+    <a href="discover.html"><span class="material-icons">explore</span> Discover</a>
+    <a href="genres.html"><span class="material-icons">queue_music</span> Genres</a>
+    <a href="artists.html"><span class="material-icons">people</span> Artists</a>
+    <a href="playlists.html"><span class="material-icons">playlist_play</span> Playlists</a>
     <div class="mobile-search">
-      <input type="text" placeholder="Search...">
       <span class="material-icons">search</span>
+      <input type="text" placeholder="Search..." />
     </div>
   </div>
 
-  <!-- Hero Banner -->
-  <div class="hero-banner">
-    <div class="banner-content">
-      <h1>Your Music, Your Way</h1>
-      <p>Stream millions of songs, anywhere, anytime</p>
-      <button class="cta-button">Start Listening</button>
-    </div>
-  </div>
-
-  <!-- Main Content Area -->
+  <!-- Main Content -->
   <div class="container">
-    <!-- Side Navigation -->
     <aside class="side-nav">
       <div class="nav-section">
         <h3>Library</h3>
-        <a href="#" class="nav-link active">
-          <span class="material-icons">library_music</span> My Library
-        </a>
-        <a href="#" class="nav-link">
-          <span class="material-icons">queue_music</span> Playlists
-        </a>
-        <a href="#" class="nav-link">
-          <span class="material-icons">history</span> Recently Played
-        </a>
-        <a href="#" class="nav-link">
-          <span class="material-icons">favorite</span> Liked Songs
-        </a>
+        <a href="#" class="nav-link active"><span class="material-icons">library_music</span> My Library</a>
+        <a href="playlist.html" class="nav-link"><span class="material-icons">queue_music</span> Playlists</a>
+        <a href="generes.html" class="nav-link"><span class="material-icons">list</span> Genres</a>
+        <a href="#" class="nav-link"><span class="material-icons">favorite</span> Liked Songs</a>
       </div>
-      
       <div class="nav-section">
-        <h3>Discover</h3>
-        <a href="#" class="nav-link">
-          <span class="material-icons">explore</span> New Releases
-        </a>
-        <a href="#" class="nav-link">
-          <span class="material-icons">trending_up</span> Trending
-        </a>
-        <a href="#" class="nav-link">
-          <span class="material-icons">mood</span> Mood & Genres
-        </a>
+        <h3>Your Playlists</h3>
+        <a href="#" class="nav-link"><span class="material-icons">playlist_play</span> Workout Mix</a>
+        <a href="#" class="nav-link"><span class="material-icons">playlist_play</span> Chill Vibes</a>
+        <a href="#" class="nav-link"><span class="material-icons">playlist_play</span> Road Trip</a>
       </div>
     </aside>
 
-    <!-- Main Content -->
     <main class="main-content">
       <div class="content-header">
         <h2>Recently Played</h2>
         <div class="sort-controls">
-          <label for="sortSelect">Sort by:</label>
+          <span class="material-icons">sort</span>
           <select id="sortSelect">
             <option value="az">Title: A-Z</option>
             <option value="za">Title: Z-A</option>
@@ -98,62 +76,50 @@
         </div>
       </div>
 
-      <!-- Featured Playlist Banner -->
       <div class="featured-banner">
         <div class="banner-info">
-          <h3>Summer Vibes 2023</h3>
-          <p>The hottest tracks for your summer playlist</p>
-          <button class="play-button">Play Now</button>
+          <h3>Fresh Vibes</h3>
+          <p>Your weekly personalized playlist</p>
+          <button class="play-btn">
+            <span class="material-icons">play_arrow</span>
+            Play Now
+          </button>
         </div>
       </div>
 
-      <!-- Songs List -->
       <div class="songs-table-container">
         <table class="songs-table">
           <thead>
             <tr>
-              <th>#</th>
-              <th>Title</th>
-              <th>Artist</th>
-              <th>Album</th>
-              <th>Duration</th>
-              <th></th>
+              <th>#</th><th>Title&Artist-Album</th><th><span class="material-icons">schedule</span></th><th></th>
             </tr>
           </thead>
-          <tbody id="songList">
-            <!-- Songs will be inserted here by JavaScript -->
-          </tbody>
+          <tbody id="songList"></tbody>
         </table>
       </div>
     </main>
 
-    <!-- Right Sidebar (Queue) -->
     <aside class="right-sidebar">
       <div class="sidebar-section">
         <h3>Now Playing</h3>
         <div class="now-playing">
-          <div class="now-playing-artwork">
-            <img src="https://via.placeholder.com/150" alt="Now playing artwork">
-          </div>
+          <div class="now-playing-artwork"><img src="https://via.placeholder.com/150" alt="Now playing" /></div>
           <div class="now-playing-info">
             <h4 class="now-playing-title">No song selected</h4>
             <p class="now-playing-artist"></p>
+            <div class="now-playing-progress">
+              <div class="progress-bar"><div class="progress-fill"></div></div>
+            </div>
           </div>
         </div>
       </div>
-
       <div class="sidebar-section">
         <h3>Up Next</h3>
-        <ul class="queue-list" id="queueList">
-          <!-- Queue items will be inserted here by JavaScript -->
-        </ul>
+        <ul class="queue-list" id="queueList"></ul>
       </div>
-
       <div class="sidebar-section">
-        <h3>Lyrics</h3>
-        <div class="lyrics-container" id="lyricsContainer">
-          Select a song to view lyrics
-        </div>
+        <h3><span class="material-icons">library_music</span> Lyrics</h3>
+        <div class="lyrics-container" id="lyricsContainer">Select a song to view lyrics</div>
       </div>
     </aside>
   </div>
@@ -161,50 +127,32 @@
   <!-- Player Controls -->
   <footer class="player-controls">
     <div class="player-info">
-      <div class="player-artwork">
-        <img src="https://via.placeholder.com/60" alt="Album artwork">
-      </div>
+      <div class="player-artwork"><img src="https://via.placeholder.com/60" alt="Album artwork" /></div>
       <div class="player-song-info">
         <h4 class="player-song-title">No song selected</h4>
         <p class="player-song-artist"></p>
       </div>
-      <button class="like-button">
-        <span class="material-icons">favorite_border</span>
-      </button>
+      <button class="like-button"><span class="material-icons">favorite_border</span></button>
     </div>
 
     <div class="player-center-controls">
       <div class="player-buttons">
-        <button class="control-button" id="btnShuffle">
-          <span class="material-icons">shuffle</span>
-        </button>
-        <button class="control-button" id="btnPrev">
-          <span class="material-icons">skip_previous</span>
-        </button>
-        <button class="control-button play-button" id="btnPlayPause">
-          <span class="material-icons">play_arrow</span>
-        </button>
-        <button class="control-button" id="btnNext">
-          <span class="material-icons">skip_next</span>
-        </button>
-        <button class="control-button" id="btnRepeat">
-          <span class="material-icons">repeat</span>
-        </button>
+        <button class="control-button" id="btnShuffle"><span class="material-icons">shuffle</span></button>
+        <button class="control-button" id="btnPrev"><span class="material-icons">skip_previous</span></button>
+        <button class="control-button play-button" id="btnPlayPause"><span class="material-icons">play_arrow</span></button>
+        <button class="control-button" id="btnNext"><span class="material-icons">skip_next</span></button>
+        <button class="control-button" id="btnRepeat"><span class="material-icons">repeat</span></button>
       </div>
       <div class="progress-container">
         <span class="time current-time">0:00</span>
-        <div class="progress-bar" id="progressBar">
-          <div class="progress-fill" id="progressFill"></div>
-        </div>
+        <div class="progress-bar" id="progressBar"><div class="progress-fill" id="progressFill"></div></div>
         <span class="time duration-time">0:00</span>
       </div>
     </div>
 
     <div class="player-volume">
-      <button class="volume-button" id="volumeButton">
-        <span class="material-icons">volume_up</span>
-      </button>
-      <input type="range" class="volume-slider" id="volumeSlider" min="0" max="100" value="70">
+      <button class="volume-button" id="volumeButton"><span class="material-icons">volume_up</span></button>
+      <input type="range" class="volume-slider" id="volumeSlider" min="0" max="100" value="70" />
     </div>
   </footer>
 

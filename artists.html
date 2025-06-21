@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Artists - BeatVibe</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Material+Icons" rel="stylesheet" />
+  <link rel="stylesheet" href="Style.css" />
+  <link rel="stylesheet" href="artist.css">
+</head>
+<body>
+  <!-- Top Navigation Bar -->
+  <nav class="top-nav">
+    <div class="logo">
+      <span class="material-icons">music_note</span>
+      <span>BeatVibe</span>
+    </div>
+    <div class="nav-links">
+      <a href="index.html"><span class="material-icons">home</span> Home</a>
+      <a href="discover.html"><span class="material-icons">explore</span> Discover</a>
+      <a href="generes.html"><span class="material-icons">queue_music</span> Genres</a>
+      <a href="#" class="active"><span class="material-icons">people</span> Artists</a>
+      <a href="playlist.html"><span class="material-icons">playlist_play</span> Playlists</a>
+    </div>
+    <div class="search-box">
+      <span class="material-icons">search</span>
+      <input type="text" class="searchInput" placeholder="Search songs, artists..." />
+    </div>
+    <button class="mobile-menu-toggle">
+      <span class="material-icons">menu</span>
+    </button>
+  </nav>
+
+  <!-- Mobile Menu -->
+  <div class="mobile-menu">
+    <a href="index.html"><span class="material-icons">home</span> Home</a>
+    <a href="discover.html"><span class="material-icons">explore</span> Discover</a>
+    <a href="genres.html"><span class="material-icons">queue_music</span> Genres</a>
+    <a href="#" class="active"><span class="material-icons">people</span> Artists</a>
+    <a href="playlists.html"><span class="material-icons">playlist_play</span> Playlists</a>
+    <div class="mobile-search">
+      <span class="material-icons">search</span>
+      <input type="text" placeholder="Search..." />
+    </div>
+  </div>
+
+  <!-- Main Content -->
+  <div class="container">
+    <main class="main-content">
+      <div class="content-header">
+        <h2>Popular Artists</h2>
+      </div>
+
+      <div class="artists-grid">
+        <div class="artist-card">
+          <div class="artist-image" style="background-image: url('https://c.saavncdn.com/378/OKAY-STFU-Punjabi-2025-20250502063450-500x500.jpg');"></div>
+          <div class="artist-info">
+            <h3>AP Dhillon</h3>
+            <p>Punjabi, Pop</p>
+          </div>
+        </div>
+
+        <div class="artist-card">
+          <div class="artist-image" style="background-image: url('https://c.saavncdn.com/609/Moosetape-Punjabi-2021-20220427043323-500x500.jpg');"></div>
+          <div class="artist-info">
+            <h3>Sidhu Moosewala</h3>
+            <p>Punjabi, Hip Hop</p>
+          </div>
+        </div>
+
+        <div class="artist-card">
+          <div class="artist-image" style="background-image: url('https://c.saavncdn.com/158/Supreme-Punjabi-2025-20250415072807-500x500.jpg');"></div>
+          <div class="artist-info">
+            <h3>Shubh</h3>
+            <p>Punjabi, Rap</p>
+          </div>
+        </div>
+
+        <div class="artist-card">
+          <div class="artist-image" style="background-image: url('https://c.saavncdn.com/237/Young-G-O-A-T-Punjabi-2025-20250225150727-500x500.jpg');"></div>
+          <div class="artist-info">
+            <h3>Cheema Y</h3>
+            <p>Punjabi, Rap</p>
+          </div>
+        </div>
+
+        <div class="artist-card">
+          <div class="artist-image" style="background-image: url('https://c.saavncdn.com/404/Russian-Bandana-Hindi-2024-20240910053147-500x500.jpg');"></div>
+          <div class="artist-info">
+            <h3>Dhanda Nyoliwala</h3>
+            <p>Haryanvi, Rap</p>
+          </div>
+        </div>
+
+        <div class="artist-card">
+          <div class="artist-image" style="background-image: url('https://c.saavncdn.com/734/Rail-Haryanvi-2025-20250513163335-500x500.jpg');"></div>
+          <div class="artist-info">
+            <h3>Sumit Parta</h3>
+            <p>Haryanvi, Pop</p>
+          </div>
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <!-- Player Controls -->
+  <footer class="player-controls">
+    <!-- Same player controls as index.html -->
+  </footer>
+
+  <audio id="audioElement" preload="metadata"></audio>
+  <script src="script.js"></script>
+</body>
+</html>

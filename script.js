@@ -10,67 +10,67 @@ document.addEventListener('DOMContentLoaded', function() {
       duration: 203,
       artwork: 'https://c.saavncdn.com/378/OKAY-STFU-Punjabi-2025-20250502063450-500x500.jpg',
       audioUrl: 'https://aac.saavncdn.com/378/8cee3668b7d5ae40e5371e7568d7c7cd_160.mp4',
-      lyrics: "No Lyrics available for this track."
+      lyrics: ""
     },
     {
       id: 's2',
-      title: 'Brown Munde',
-      artist: 'AP Dhillon, Gurinder Gill, Gminxr',
-      album: 'Brown Munde',
-      duration: 238,
-      artwork: 'https://c.saavncdn.com/238/Brown-Munde-Punjabi-2020-20200918-500x500.jpg',
-      audioUrl: 'https://aac.saavncdn.com/238/8a5b1e8e9c5e5a5f5e5d5c5b5a595857_160.mp4',
-      lyrics: "Brown munde brown munde, brown munde brown munde"
+      title: 'Take Notes',
+      artist: 'Sidhu Moosewala',
+      album: 'Moose Print',
+      duration: 216,
+      artwork: 'https://c.saavncdn.com/785/Moose-Print-Punjabi-2025-20250617155138-500x500.jpg',
+      audioUrl: 'https://aac.saavncdn.com/785/beb3e4afda0d02ea47c127ccd16f1290_160.mp4',
+      lyrics: ""
     },
     {
       id: 's3',
       title: 'Excuses',
       artist: 'AP Dhillon, Gurinder Gill, Intense',
       album: 'Excuses',
-      duration: 196,
-      artwork: 'https://c.saavncdn.com/596/Excuses-English-2021-20210423035758-500x500.jpg',
-      audioUrl: 'https://aac.saavncdn.com/596/9b6a1e8e9c5e5a5f5e5d5c5b5a595857_160.mp4',
-      lyrics: "You keep on making excuses, I keep on falling for you"
+      duration: 177,
+      artwork: 'https://c.saavncdn.com/890/Excuses-English-2021-20210930112054-500x500.jpg',
+      audioUrl: 'https://aac.saavncdn.com/890/a18aabc4681dc6c334d5d29b67e84a0f_160.mp4',
+      lyrics: ""
     },
     {
       id: 's4',
       title: 'Majhail',
       artist: 'AP Dhillon, Gurinder Gill',
       album: 'Majhail',
-      duration: 215,
-      artwork: 'https://c.saavncdn.com/391/Majhail-Punjabi-2021-20210205163704-500x500.jpg',
-      audioUrl: 'https://aac.saavncdn.com/391/7c6a1e8e9c5e5a5f5e5d5c5b5a595857_160.mp4',
-      lyrics: "Majhail ve tu majhail, tu kinna sohni lagdi"
+      duration: 175,
+      artwork: 'https://c.saavncdn.com/648/Majhail-English-2020-20200627205840-500x500.jpg',
+      audioUrl: 'https://aac.saavncdn.com/648/af3596462f299185b71032500b843377_160.mp4',
+      lyrics: ""
     },
     {
       id: 's5',
-      title: 'Insane',
-      artist: 'AP Dhillon, Gurinder Gill',
-      album: 'Insane',
-      duration: 207,
-      artwork: 'https://c.saavncdn.com/596/Insane-English-2021-20210423035758-500x500.jpg',
-      audioUrl: 'https://aac.saavncdn.com/596/6d6a1e8e9c5e5a5f5e5d5c5b5a595857_160.mp4',
-      lyrics: "I'm going insane, I'm going insane"
+      title: 'Rail',
+      artist: 'Sumit Parta',
+      album: 'singe-track',
+      duration: 126,
+      artwork: 'https://c.saavncdn.com/734/Rail-Haryanvi-2025-20250513163335-500x500.jpg',
+      audioUrl: 'https://aac.saavncdn.com/734/91e30d07914ec39080d11d6fd249f027_160.mp4',
+      lyrics: ""
     },
     {
       id: 's6',
       title: '295',
       artist: 'Sidhu Moosewala',
       album: 'Moosetape',
-      duration: 243,
-      artwork: 'https://c.saavncdn.com/596/295-Punjabi-2021-20210423035758-500x500.jpg',
-      audioUrl: 'https://aac.saavncdn.com/596/5d6a1e8e9c5e5a5f5e5d5c5b5a595857_160.mp4',
-      lyrics: "295 likh ke lawa te gaddi ch 295"
+      duration: 270,
+      artwork: 'https://c.saavncdn.com/609/Moosetape-Punjabi-2021-20220427043323-500x500.jpg',
+      audioUrl: 'https://aac.saavncdn.com/609/c90b3b6aa1baeb5d763d475c5d50376c_160.mp4',
+      lyrics: ""
     },
     {
       id: 's7',
       title: 'So High',
       artist: 'Sidhu Moosewala',
       album: 'PBX 1',
-      duration: 227,
-      artwork: 'https://c.saavncdn.com/596/So-High-Punjabi-2018-20180921050454-500x500.jpg',
-      audioUrl: 'https://aac.saavncdn.com/596/4d6a1e8e9c5e5a5f5e5d5c5b5a595857_160.mp4',
-      lyrics: "So high, so high, so high"
+      duration: 233,
+      artwork: 'https://c.saavncdn.com/544/So-High-Punjabi-2017-20220811172517-500x500.jpg',
+      audioUrl: 'https://aac.saavncdn.com/544/fa128b5b00df068d78bc50bf19bf137f_160.mp4',
+      lyrics: ""
     },
     {
       id: 's8',
@@ -78,130 +78,172 @@ document.addEventListener('DOMContentLoaded', function() {
       artist: 'Sidhu Moosewala',
       album: 'Moosetape',
       duration: 256,
-      artwork: 'https://c.saavncdn.com/596/The-Last-Ride-Punjabi-2021-20210423035758-500x500.jpg',
-      audioUrl: 'https://aac.saavncdn.com/596/3d6a1e8e9c5e5a5f5e5d5c5b5a595857_160.mp4',
-      lyrics: "This is the last ride, last ride"
+      artwork: 'https://c.saavncdn.com/582/The-Last-Ride-Punjabi-2022-20220517061646-500x500.jpg',
+      audioUrl: 'https://aac.saavncdn.com/582/66fbc0a08cf9051e4faad09c541e49ce_160.mp4',
+      lyrics: ""
     },
     {
       id: 's9',
-      title: 'Daku',
+      title: 'Supreme',
       artist: 'Shubh',
-      album: 'Still Rollin',
-      duration: 221,
-      artwork: 'https://c.saavncdn.com/596/Daku-Punjabi-2022-20220214050454-500x500.jpg',
-      audioUrl: 'https://aac.saavncdn.com/596/2d6a1e8e9c5e5a5f5e5d5c5b5a595857_160.mp4',
-      lyrics: "Daku banke aaya, daku banke aaya"
+      album: 'Single-track',
+      duration: 178,
+      artwork: 'https://c.saavncdn.com/158/Supreme-Punjabi-2025-20250415072807-500x500.jpg',
+      audioUrl: 'https://aac.saavncdn.com/158/41ac188e91d72922be080dd7ca0f1c6c_160.mp4',
+      lyrics: ""
     },
     {
       id: 's10',
-      title: 'Cheques',
+      title: 'Dior',
       artist: 'Shubh',
       album: 'Still Rollin',
-      duration: 234,
-      artwork: 'https://c.saavncdn.com/596/Cheques-Punjabi-2022-20220214050454-500x500.jpg',
-      audioUrl: 'https://aac.saavncdn.com/596/1d6a1e8e9c5e5a5f5e5d5c5b5a595857_160.mp4',
-      lyrics: "Cheques bhar de, cheques bhar de"
+      duration: 149,
+      artwork: 'https://c.saavncdn.com/704/Still-Rollin-Punjabi-2023-20230512121542-500x500.jpg',
+      audioUrl: 'https://aac.saavncdn.com/704/e6e17e95adcde7038c33cf704b1ab611_160.mp4',
+      lyrics: ""
     },
     {
       id: 's11',
-      title: 'No Love',
-      artist: 'Shubh',
-      album: 'Still Rollin',
-      duration: 198,
-      artwork: 'https://c.saavncdn.com/596/No-Love-Punjabi-2022-20220214050454-500x500.jpg',
-      audioUrl: 'https://aac.saavncdn.com/596/0d6a1e8e9c5e5a5f5e5d5c5b5a595857_160.mp4',
-      lyrics: "No love, no love, no love"
+      title: 'Young G.O.A.T',
+      artist: 'Cheema y',
+      album: 'Young G.O.A.T',
+      duration: 225,
+      artwork: 'https://c.saavncdn.com/237/Young-G-O-A-T-Punjabi-2025-20250225150727-500x500.jpg',
+      audioUrl: 'https://aac.saavncdn.com/237/8b9556d16f2b266fdd262d627c009251_160.mp4',
+      lyrics: ""
     },
     {
       id: 's12',
-      title: 'Tere Te',
-      artist: 'AP Dhillon, Gurinder Gill',
-      album: 'Not by Chance',
-      duration: 212,
-      artwork: 'https://c.saavncdn.com/596/Tere-Te-Punjabi-2021-20210423035758-500x500.jpg',
-      audioUrl: 'https://aac.saavncdn.com/596/fc6a1e8e9c5e5a5f5e5d5c5b5a595857_160.mp4',
-      lyrics: "Tere te, tere te, tere te"
+      title: 'Russian Bandana',
+      artist: 'Dhanda Nyoliwala',
+      album: 'Single-track',
+      duration: 197,
+      artwork: 'https://c.saavncdn.com/404/Russian-Bandana-Hindi-2024-20240910053147-500x500.jpg',
+      audioUrl: 'https://aac.saavncdn.com/404/f3bf126e1401649443598e6fa575cb7c_160.mp4',
+      lyrics: ""
     },
     {
       id: 's13',
-      title: 'Desires',
-      artist: 'AP Dhillon, Gurinder Gill',
+      title: 'Knife Brows',
+      artist: 'Dhanda Nyoliwala',
       album: 'Not by Chance',
       duration: 224,
-      artwork: 'https://c.saavncdn.com/596/Desires-Punjabi-2021-20210423035758-500x500.jpg',
-      audioUrl: 'https://aac.saavncdn.com/596/ec6a1e8e9c5e5a5f5e5d5c5b5a595857_160.mp4',
-      lyrics: "Desires, desires, desires"
+      artwork: 'https://c.saavncdn.com/511/DNW-Vol-1-Hindi-2024-20241017154112-500x500.jpg',
+      audioUrl: 'https://aac.saavncdn.com/511/e7d19d1cd37e58cb9f6bfe08e66e1973_160.mp4',
+      lyrics: ""
     },
     {
       id: 's14',
-      title: 'Faraar',
-      artist: 'AP Dhillon, Gurinder Gill',
-      album: 'Not by Chance',
-      duration: 231,
-      artwork: 'https://c.saavncdn.com/596/Faraar-Punjabi-2021-20210423035758-500x500.jpg',
-      audioUrl: 'https://aac.saavncdn.com/596/dc6a1e8e9c5e5a5f5e5d5c5b5a595857_160.mp4',
-      lyrics: "Faraar, faraar, faraar"
+      title: 'Unstoppable',
+      artist: 'Dhanda Nyoliwala',
+      album: 'single-track',
+      duration: 199,
+      artwork: 'https://c.saavncdn.com/685/Unstoppable-Hindi-2024-20240321161042-500x500.jpg',
+      audioUrl: 'https://aac.saavncdn.com/685/10ab095871edf5db7de13af2644b23cd_160.mp4',
+      lyrics: ""
     },
     {
       id: 's15',
-      title: 'Summer High',
+      title: 'Old Money',
       artist: 'AP Dhillon',
-      album: 'Hidden Gems',
-      duration: 219,
-      artwork: 'https://c.saavncdn.com/596/Summer-High-Punjabi-2021-20210423035758-500x500.jpg',
-      audioUrl: 'https://aac.saavncdn.com/596/cc6a1e8e9c5e5a5f5e5d5c5b5a595857_160.mp4',
-      lyrics: "Summer high, summer high, summer high"
+      album: 'single-track',
+      duration: 127,
+      artwork: 'https://c.saavncdn.com/939/Old-Money-Punjabi-2024-20240809063655-500x500.jpg',
+      audioUrl: 'https://aac.saavncdn.com/939/a749b617dec1c3c77e61b4a1083b2436_160.mp4',
+      lyrics: ""
     },
     {
       id: 's16',
-      title: 'Droptop',
-      artist: 'AP Dhillon, Gurinder Gill',
-      album: 'Hidden Gems',
-      duration: 205,
-      artwork: 'https://c.saavncdn.com/596/Droptop-Punjabi-2021-20210423035758-500x500.jpg',
-      audioUrl: 'https://aac.saavncdn.com/596/bc6a1e8e9c5e5a5f5e5d5c5b5a595857_160.mp4',
-      lyrics: "Droptop, droptop, droptop"
+      title: 'Drippy',
+      artist: 'Sidhu Moosewala, AR Paisley',
+      album: 'single-track',
+      duration: 195,
+      artwork: 'https://c.saavncdn.com/457/Drippy-Punjabi-2024-20240202095601-500x500.jpg',
+      audioUrl: 'https://aac.saavncdn.com/457/742fb2c3e599534656d0392c54250827_160.mp4',
+      lyrics: ""
     },
     {
       id: 's17',
-      title: 'Faizal',
-      artist: 'Navaan Sandhu',
-      album: 'Faizal',
-      duration: 228,
-      artwork: 'https://c.saavncdn.com/596/Faizal-Punjabi-2021-20210423035758-500x500.jpg',
-      audioUrl: 'https://aac.saavncdn.com/596/ac6a1e8e9c5e5a5f5e5d5c5b5a595857_160.mp4',
-      lyrics: "Faizal, Faizal, Faizal"
+      title: 'The Jatts',
+      artist: 'Varinder Brar',
+      album: 'Single-track',
+      duration: 161,
+      artwork: 'https://c.saavncdn.com/516/The-Jatts-Punjabi-2024-20240115164201-500x500.jpg',
+      audioUrl: 'https://aac.saavncdn.com/516/c4af8905eba82241fb070b71b21be493_160.mp4',
+      lyrics: ""
     },
     {
       id: 's18',
       title: '52 Bars',
       artist: 'Karan Aujla',
-      album: 'B.T.F.U',
+      album: 'Four You',
       duration: 237,
-      artwork: 'https://c.saavncdn.com/596/52-Bars-Punjabi-2021-20210423035758-500x500.jpg',
-      audioUrl: 'https://aac.saavncdn.com/596/9c6a1e8e9c5e5a5f5e5d5c5b5a595857_160.mp4',
-      lyrics: "52 bars, 52 bars, 52 bars"
+      artwork: 'https://c.saavncdn.com/552/Four-You-Punjabi-2023-20230130150304-500x500.jpg',
+      audioUrl: 'https://aac.saavncdn.com/552/b8f53cb2202fa88a770aba7b67e84535_160.mp4',
+      lyrics: ""
     },
     {
       id: 's19',
-      title: 'Baller',
-      artist: 'Shubh',
-      album: 'Still Rollin',
-      duration: 221,
-      artwork: 'https://c.saavncdn.com/596/Baller-Punjabi-2022-20220214050454-500x500.jpg',
-      audioUrl: 'https://aac.saavncdn.com/596/8c6a1e8e9c5e5a5f5e5d5c5b5a595857_160.mp4',
-      lyrics: "Baller, baller, baller"
+      title: 'Roots',
+      artist: 'Bintu Pabra',
+      album: 'Single-track',
+      duration: 263,
+      artwork: 'https://c.saavncdn.com/925/Roots-Haryanvi-2022-20240321064835-500x500.jpg',
+      audioUrl: 'https://aac.saavncdn.com/925/97dc28640c4c0659f994384ca15bbaa9_160.mp4',
+      lyrics: ""
     },
     {
       id: 's20',
-      title: 'OG',
-      artist: 'Prem Dhillon',
-      album: 'OG',
-      duration: 214,
-      artwork: 'https://c.saavncdn.com/596/OG-Punjabi-2021-20210423035758-500x500.jpg',
-      audioUrl: 'https://aac.saavncdn.com/596/7c6a1e8e9c5e5a5f5e5d5c5b5a595857_160.mp4',
-      lyrics: "OG, OG, OG"
+      title: 'Arbi Ghode',
+      artist: 'Masoom Sharma',
+      album: 'Single-track',
+      duration: 200,
+      artwork: 'https://c.saavncdn.com/508/Arbi-Ghode-Unknown-2024-20240616133051-500x500.jpg',
+      audioUrl: 'https://aac.saavncdn.com/508/387d8c8c9944736e17f7d36fb5891df2_160.mp4',
+      lyrics: ""
+    },
+    {
+      id: 's21',
+      title: 'Ramayan ka Saar',
+      artist: 'Masoom Sharma',
+      album: 'single-track',
+      duration: 187,
+      artwork: 'https://c.saavncdn.com/931/Ramayan-Ka-Saar-Haryanvi-2025-20250521141230-500x500.jpg',
+      audioUrl: 'https://aac.saavncdn.com/931/dc85bc9570ef9035de6f4c65d2480428_160.mp4',
+      lyrics: ""
+    },
+    {
+      id: 's22',
+      title: 'Never Fold',
+      artist: 'Sidhu Moosewala, Sunny Malton',
+      album: 'No Name',
+      duration: 183,
+      artwork: 'https://c.saavncdn.com/448/No-Name-Punjabi-2022-20220425032043-500x500.jpg',
+      audioUrl: 'https://aac.saavncdn.com/448/ebf5f8053c69b5c5ee27905f31fc9fbf_160.mp4',
+      lyrics: ""
+    },
+    {
+      id: 's23',
+      title: 'Celebrity killer',
+      artist: 'Sidhu Moosewala, Tion Wayne',
+      album: 'Moosetape',
+      duration: 203,
+      artwork: 'https://c.saavncdn.com/609/Moosetape-Punjabi-2021-20220427043323-500x500.jpg',
+      audioUrl: 'https://aac.saavncdn.com/609/58c7d32635c6e47e221b908515018df6_160.mp4',
+      lyrics: ""
+    },
+    {
+      id: 's24',
+      title: 'Courtside',
+      artist: 'Karan Aujla',
+      album: 'single-track',
+      duration: 168,
+      artwork: 'https://c.saavncdn.com/907/Courtside-Punjabi-2025-20250506120316-500x500.jpg',
+      audioUrl: 'https://aac.saavncdn.com/907/7de4a84c4db2b9be2eed8be41b3ab49b_160.mp4',
+      lyrics: ""
     }
+
+
 ];
 
   // User library data
@@ -217,7 +259,7 @@ document.addEventListener('DOMContentLoaded', function() {
   let isRepeat = false;
 
   // DOM elements
-  const audioElement = document.getElementById('audioElement');
+    const audioElement = document.getElementById('audioElement');
   const songListElement = document.getElementById('songList');
   const queueListElement = document.getElementById('queueList');
   const lyricsContainer = document.getElementById('lyricsContainer');
@@ -243,12 +285,29 @@ document.addEventListener('DOMContentLoaded', function() {
   const mobileMenu = document.querySelector('.mobile-menu');
   const likeButton = document.querySelector('.player-info .like-button');
 
+
+  // Mobile menu toggle
+  mobileMenuToggle.addEventListener('click', () => {
+    mobileMenu.classList.toggle('show');
+    mobileMenuToggle.classList.toggle('active');
+  });
+
+  // Close mobile menu when clicking outside
+  document.addEventListener('click', (e) => {
+    if (!mobileMenu.contains(e.target) && e.target !== mobileMenuToggle) {
+      mobileMenu.classList.remove('show');
+      mobileMenuToggle.classList.remove('active');
+    }
+  });
+
   // Helper functions
   function formatTime(seconds) {
     const minutes = Math.floor(seconds / 60);
     const secs = Math.floor(seconds % 60);
     return `${minutes}:${secs < 10 ? '0' : ''}${secs}`;
   }
+
+  let currentPlaylist = [...songs]; // Use this for all playback and rendering
 
   // Render songs list
   function renderSongList(songsArray) {
@@ -262,10 +321,16 @@ document.addEventListener('DOMContentLoaded', function() {
       }
       
       row.innerHTML = `
-        <td>${index + 1}</td>
-        <td class="song-title">${song.title}</td>
-        <td>${song.artist}</td>
-        <td>${song.album}</td>
+        <td class="song-artwork-cell">
+          <img src="${song.artwork}" alt="${song.title} artwork" class="song-artwork-img" />
+        </td>
+        <td style="width:100%;">
+          <div class="mobile-song-meta">
+            <span class="song-title">${song.title}</span>
+            <span class="mobile-song-artist">${song.artist}</span>
+            <span class="mobile-song-album">${song.album}</span>
+          </div>
+        </td>
         <td class="duration">${formatTime(song.duration)}</td>
         <td>
           <button class="like-button ${userLibrary.likedSongs.has(song.id) ? 'liked' : ''}">
@@ -313,7 +378,7 @@ document.addEventListener('DOMContentLoaded', function() {
     queueListElement.innerHTML = '';
     
     if (currentSongIndex >= 0) {
-      const queue = [...songs];
+      const queue = [...currentPlaylist];
       queue.splice(currentSongIndex, 1);
       
       queue.forEach((song, index) => {
@@ -333,10 +398,10 @@ document.addEventListener('DOMContentLoaded', function() {
 
   // Play track
   function playTrack(index) {
-    if (index < 0 || index >= songs.length) return;
+    if (index < 0 || index >= currentPlaylist.length) return;
     
     currentSongIndex = index;
-    const song = songs[index];
+    const song = currentPlaylist[index];
     
     // Update audio element
     audioElement.src = song.audioUrl;
@@ -366,20 +431,22 @@ document.addEventListener('DOMContentLoaded', function() {
     nowPlayingArtwork.alt = `${song.album} cover`;
     nowPlayingTitle.textContent = song.title;
     nowPlayingArtist.textContent = song.artist;
-    
+
     playerArtwork.src = song.artwork;
     playerArtwork.alt = `${song.album} cover`;
     playerSongTitle.textContent = song.title;
     playerSongArtist.textContent = song.artist;
-    
+
     // Update like button
     const isLiked = userLibrary.likedSongs.has(song.id);
     likeButton.querySelector('.material-icons').textContent = isLiked ? 'favorite' : 'favorite_border';
     likeButton.classList.toggle('liked', isLiked);
-    
-    // Update lyrics
-    lyricsContainer.textContent = song.lyrics || 'No lyrics available for this track.';
-    
+
+    // Update lyrics (support \n for new lines)
+    lyricsContainer.innerHTML = (song.lyrics && song.lyrics.trim())
+      ? song.lyrics.replace(/\n/g, '\n')
+      : 'No lyrics available for this track.';
+
     // Update duration time
     durationTimeElement.textContent = formatTime(song.duration);
   }
@@ -434,12 +501,12 @@ document.addEventListener('DOMContentLoaded', function() {
     if (isShuffle) {
       let randomIndex;
       do {
-        randomIndex = Math.floor(Math.random() * songs.length);
-      } while (randomIndex === currentSongIndex && songs.length > 1);
+        randomIndex = Math.floor(Math.random() * currentPlaylist.length);
+      } while (randomIndex === currentSongIndex && currentPlaylist.length > 1);
       playTrack(randomIndex);
     } else {
       let nextIndex = currentSongIndex + 1;
-      if (nextIndex >= songs.length) {
+      if (nextIndex >= currentPlaylist.length) {
         if (isRepeat) {
           nextIndex = 0;
         } else {
@@ -458,7 +525,7 @@ document.addEventListener('DOMContentLoaded', function() {
     let prevIndex = currentSongIndex - 1;
     if (prevIndex < 0) {
       if (isRepeat) {
-        prevIndex = songs.length - 1;
+        prevIndex = currentPlaylist.length - 1;
       } else {
         prevIndex = 0;
       }
@@ -542,6 +609,30 @@ document.addEventListener('DOMContentLoaded', function() {
     
     return sorted;
   }
+  // search songs
+  function searchSongs(query) {
+    const lowerQuery = query.toLowerCase();
+    return songs.filter(song => 
+      song.title.toLowerCase().includes(lowerQuery) ||
+      song.artist.toLowerCase().includes(lowerQuery) ||
+      song.album.toLowerCase().includes(lowerQuery)
+    );
+  }
+  // Search functionality
+  const searchInput = document.querySelector('.searchInput'); // <-- changed from getElementById
+searchInput.addEventListener('input', function() {
+  const query = searchInput.value.trim();
+  if (query) {
+    currentPlaylist = searchSongs(query);
+  } else {
+    currentPlaylist = [...songs];
+  }
+  currentSongIndex = -1;
+  renderSongList(currentPlaylist);
+  renderQueue();
+});
+
+
 
   // Event listeners
   playPauseButton.addEventListener('click', togglePlayPause);
@@ -551,10 +642,11 @@ document.addEventListener('DOMContentLoaded', function() {
   repeatButton.addEventListener('click', toggleRepeat);
   likeButton.addEventListener('click', () => {
     if (currentSongIndex >= 0) {
-      const songId = songs[currentSongIndex].id;
+      const songId = currentPlaylist[currentSongIndex].id;
       toggleLikeSong(songId, likeButton);
     }
   });
+  
 
   progressBar.addEventListener('click', seekAudio);
   
@@ -565,8 +657,10 @@ document.addEventListener('DOMContentLoaded', function() {
   volumeSlider.addEventListener('input', updateVolume);
   
   sortSelect.addEventListener('change', () => {
-    const sortedSongs = sortSongs(songs, sortSelect.value);
-    renderSongList(sortedSongs);
+    currentPlaylist = sortSongs([...songs], sortSelect.value);
+    currentSongIndex = -1;
+    renderSongList(currentPlaylist);
+    renderQueue();
   });
 
   // Mobile menu toggle
@@ -575,8 +669,8 @@ document.addEventListener('DOMContentLoaded', function() {
   });
 
   // Initialize
-  renderSongList(songs);
+  currentPlaylist = [...songs];
+  renderSongList(currentPlaylist);
   renderQueue();
 });
 
-       

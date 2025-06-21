@@ -1,0 +1,92 @@
+/* Artists Page Specific Styles */
+.artists-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 1.5rem;
+  margin-top: 1rem;
+}
+
+.artist-card {
+  background: var(--color-gray);
+  border-radius: 10px;
+  overflow: hidden;
+  transition: var(--transition);
+}
+
+.artist-card:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--shadow-hover);
+}
+
+.artist-image {
+  height: 180px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.artist-image .play-btn {
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
+  opacity: 0;
+  transition: var(--transition);
+}
+
+.artist-card:hover .play-btn {
+  opacity: 1;
+}
+
+.artist-info {
+  padding: 1rem;
+  text-align: center;
+}
+
+.artist-info h3 {
+  font-size: 1.1rem;
+  margin-bottom: 0.3rem;
+  color: var(--color-white);
+}
+
+.artist-info p {
+  font-size: 0.9rem;
+  color: var(--color-text-secondary);
+}
+
+/* Responsive Styles for Artists Page */
+@media (max-width: 1200px) {
+  .artists-grid {
+    grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  }
+}
+
+@media (max-width: 992px) {
+  .artists-grid {
+    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+  }
+}
+
+@media (max-width: 768px) {
+  .artists-grid {
+    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+    gap: 1rem;
+  }
+  
+  .artist-image {
+    height: 140px;
+  }
+}
+
+@media (max-width: 576px) {
+  .artists-grid {
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+  }
+  
+  .artist-info h3 {
+    font-size: 1rem;
+  }
+  
+  .artist-info p {
+    font-size: 0.8rem;
+  }
+}

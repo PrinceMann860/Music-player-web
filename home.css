@@ -1,0 +1,340 @@
+/* Home Page Specific Styles */
+.featured-banner {
+  background: linear-gradient(135deg, rgba(30, 215, 96, 0.2) 0%, rgba(0, 0, 0, 0.7) 100%),
+              url('https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80');
+  background-size: cover;
+  background-position: center;
+  height: 200px;
+  border-radius: 15px;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  position: relative;
+  overflow: hidden;
+}
+
+.featured-banner::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(to bottom, transparent 0%, rgba(0,0,0,0.8) 100%);
+}
+
+.banner-info {
+  position: relative;
+  z-index: 1;
+}
+
+.banner-info h3 {
+  font-size: 1.8rem;
+  color: var(--color-white);
+  margin-bottom: 0.5rem;
+}
+
+.banner-info p {
+  color: var(--color-text);
+  margin-bottom: 1rem;
+}
+
+.songs-table-container {
+  overflow-x: auto;
+  border-radius: 10px;
+}
+
+.songs-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.songs-table thead th {
+  text-align: left;
+  padding: 1rem;
+  color: var(--color-text-secondary);
+  font-weight: 500;
+  border-bottom: 1px solid var(--color-gray);
+}
+
+.songs-table thead th .material-icons {
+  font-size: 1rem;
+  vertical-align: middle;
+}
+
+.songs-table tbody tr {
+  transition: var(--transition);
+  cursor: pointer;
+}
+
+.songs-table tbody tr:hover {
+  background-color: var(--color-gray);
+}
+
+.songs-table tbody tr.active {
+  background-color: rgba(215, 175, 30, 0.1);
+}
+
+.songs-table tbody td {
+  padding: 1rem;
+  border-bottom: 1px solid var(--color-gray);
+}
+
+.songs-table tbody td:first-child {
+  color: var(--color-text-secondary);
+}
+
+.songs-table .song-title {
+  font-weight: 500;
+  color: var(--color-white);
+}
+
+.songs-table .duration {
+  color: var(--color-text-secondary);
+}
+.sort-controls {
+  position: relative;
+}
+
+.sort-controls label {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.sort-controls label .material-icons {
+  font-size: 1.2rem;
+}
+
+.sort-controls select {
+  appearance: none;
+  padding-right: 2rem;
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/9/96/Chevron-icon-drop-down-menu-WHITE.png");
+  background-repeat: no-repeat;
+  background-position: right 0.5rem center;
+  background-size: 1rem;
+}
+
+/* Active sort state */
+.sort-controls select:focus {
+  box-shadow: 0 0 0 2px rgb(40, 40, 40);
+}
+
+/* Like Button Styles */
+.like-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: var(--color-text-secondary);
+  font-size: 1.3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: color 0.2s, background 0.2s, transform 0.2s;
+  border-radius: 50%;
+  padding: 0.3rem;
+}
+
+.like-button:hover,
+.like-button.liked {
+  color: var(--color-primary);
+  background: rgba(30, 215, 96, 0.08);
+  transform: scale(1.1);
+}
+
+.like-button .material-icons {
+  font-size: 1.3rem;
+  pointer-events: none;
+}
+
+/* Responsive Styles for Home Page */
+@media (max-width: 768px) {
+  .featured-banner {
+    height: 160px;
+  }
+  
+  .banner-info h3 {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .featured-banner {
+    height: 140px;
+  }
+  
+  .songs-table thead th:nth-child(4),
+  .songs-table tbody td:nth-child(4) {
+    display: none;
+  }
+}
+
+/* Mobile song card style for songs-table */
+@media (max-width: 700px) {
+  .songs-table {
+    padding-left: 0%;
+    padding-right: 0%;
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0 0.7rem;
+    background: none;
+  }
+  .songs-table thead {
+    display: none;
+  }
+  .songs-table tbody tr {
+    display: flex;
+    align-items: center;
+    background: none;
+    border-radius: 0;
+    box-shadow: none;
+    margin-bottom: 0.5rem;
+    padding: 0 0.5rem;
+    min-height: 64px;
+    position: relative;
+    transition: none;
+  }
+  .songs-table tbody td {
+    border: none;
+    padding: 0;
+    background: none;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+  }
+  .song-artwork-cell {
+    flex: none;
+    margin-right: 0.9rem;
+    padding: 0;
+    width: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .song-artwork-img {
+    width: 56px;
+    height: 56px;
+    border-radius: 10px;
+    object-fit: cover;
+    margin: 0;
+    box-shadow: none;
+  }
+  .mobile-song-meta {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-width: 0;
+    flex: 1;
+    margin-right: 0.7rem;
+  }
+  .song-title,
+  .songs-table .song-title {
+    font-weight: 600;
+    color: inherit;
+    font-size: 1.08rem;
+    margin-bottom: 0.18rem;
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .mobile-song-artist,
+  .mobile-song-album {
+    color: #888;
+    font-size: 0.97rem;
+    font-weight: 400;
+    margin-bottom: 0.1rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .duration {
+    margin-left: auto;
+    color: inherit;
+    font-size: 1.05rem;
+    font-weight: 500;
+    min-width: 44px;
+    text-align: right;
+    background: none;
+    position: static;
+    transform: none;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  .like-button {
+    display: none !important;
+  }
+}
+
+@media (max-width: 400px) {
+  .songs-table tbody tr {
+    min-height: 36px;
+    padding: 0.5rem 0.2rem;
+  }
+  .song-artwork-cell {
+    width: 28px;
+    margin-right: 0.3rem;
+  }
+  .song-artwork-img {
+    width: 28px;
+    height: 28px;
+    border-radius: 5px;
+  }
+  .mobile-song-meta {
+    margin-right: 0.15rem;
+  }
+  .song-title,
+  .songs-table .song-title {
+    font-size: 0.82rem;
+    margin-bottom: 0.07rem;
+    line-height: 1.1;
+  }
+  .mobile-song-artist,
+  .mobile-song-album {
+    font-size: 0.72rem;
+    margin-bottom: 0.03rem;
+    line-height: 1.1;
+  }
+  .duration {
+    font-size: 0.82rem;
+    min-width: 22px;
+    margin-left: 0.1rem;
+  }
+  .songs-table tbody td {
+    font-size: 0.82rem;
+    padding: 0;
+  }
+}
+
+/* Add spacing between title, artist, and album on large screens */
+@media (min-width: 701px) {
+  .songs-table .mobile-song-meta {
+    display: flex;
+    flex-direction: column;
+    gap: 0.18em; /* Adjust gap as needed for visual clarity */
+  }
+  .songs-table .song-title {
+    margin-bottom: 0;
+  }
+  .songs-table .mobile-song-artist,
+  .songs-table .mobile-song-album {
+    margin-bottom: 0;
+  }
+}
+
+.song-artwork-cell {
+  width: 48px;
+  padding: 0.5rem 0.5rem;
+}
+.song-artwork-img {
+  width: 40px;
+  height: 40px;
+  border-radius: 7px;
+  object-fit: cover;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.10);
+  display: block;
+  margin: 0 auto;
+}

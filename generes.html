@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Genres - BeatVibe</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Material+Icons" rel="stylesheet" />
+  <link rel="stylesheet" href="Style.css" />
+  <link rel="stylesheet" href="generes.css">
+</head>
+<body>
+  <!-- Top Navigation Bar -->
+  <nav class="top-nav">
+    <div class="logo">
+      <span class="material-icons">music_note</span>
+      <span>BeatVibe</span>
+    </div>
+    <div class="nav-links">
+      <a href="index.html"><span class="material-icons">home</span> Home</a>
+      <a href="discover.html"><span class="material-icons">explore</span> Discover</a>
+      <a href="#" class="active"><span class="material-icons">queue_music</span> Genres</a>
+      <a href="artists.html"><span class="material-icons">people</span> Artists</a>
+      <a href="playlists.html"><span class="material-icons">playlist_play</span> Playlists</a>
+    </div>
+    <div class="search-box">
+      <span class="material-icons">search</span>
+      <input type="text" class="searchInput" placeholder="Search songs, artists..." />
+    </div>
+    <button class="mobile-menu-toggle">
+      <span class="material-icons">menu</span>
+    </button>
+  </nav>
+
+  <!-- Mobile Menu -->
+  <div class="mobile-menu">
+    <a href="index.html"><span class="material-icons">home</span> Home</a>
+    <a href="discover.html"><span class="material-icons">explore</span> Discover</a>
+    <a href="#" class="active"><span class="material-icons">queue_music</span> Genres</a>
+    <a href="artists.html"><span class="material-icons">people</span> Artists</a>
+    <a href="playlist.html"><span class="material-icons">playlist_play</span> Playlists</a>
+    <div class="mobile-search">
+      <span class="material-icons">search</span>
+      <input type="text" placeholder="Search..." />
+    </div>
+  </div>
+
+  <!-- Main Content -->
+  <div class="container">
+    <main class="main-content">
+      <div class="content-header">
+        <h2>Browse Genres</h2>
+      </div>
+
+      <div class="genres-grid">
+        <div class="genre-card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.5)), url('https://images.unsplash.com/photo-1499415479124-43c32433a620?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2032&q=80');">
+          <h3>Pop</h3>
+          <button class="play-btn"><span class="material-icons">play_arrow</span></button>
+        </div>
+
+        <div class="genre-card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.5)), url('https://images.unsplash.com/photo-1470225620780-dba8ba36b745?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80');">
+          <h3>Rock</h3>
+          <button class="play-btn"><span class="material-icons">play_arrow</span></button>
+        </div>
+
+        <div class="genre-card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.5)), url('https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80');">
+          <h3>Hip Hop</h3>
+          <button class="play-btn"><span class="material-icons">play_arrow</span></button>
+        </div>
+
+        <div class="genre-card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.5)), url('https://images.unsplash.com/photo-1496293455970-f8581aae0e3b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2013&q=80');">
+          <h3>Electronic</h3>
+          <button class="play-btn"><span class="material-icons">play_arrow</span></button>
+        </div>
+
+        <div class="genre-card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.5)), url('https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80');">
+          <h3>R&B</h3>
+          <button class="play-btn"><span class="material-icons">play_arrow</span></button>
+        </div>
+
+        <div class="genre-card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.5)), url('https://images.unsplash.com/photo-1499415479124-43c32433a620?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2032&q=80');">
+          <h3>Jazz</h3>
+          <button class="play-btn"><span class="material-icons">play_arrow</span></button>
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <!-- Player Controls -->
+  <footer class="player-controls">
+    <!-- Same player controls as index.html -->
+  </footer>
+
+  <audio id="audioElement" preload="metadata"></audio>
+  <script src="script.js"></script>
+</body>
+</html>

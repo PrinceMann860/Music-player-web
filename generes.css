@@ -1,0 +1,92 @@
+/* Genres Page Specific Styles */
+.genres-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 1.5rem;
+  margin-top: 1rem;
+}
+
+.genre-card {
+  height: 120px;
+  border-radius: 10px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 1rem;
+  transition: var(--transition);
+  position: relative;
+  overflow: hidden;
+}
+
+.genre-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(135deg, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0.5) 100%);
+}
+
+.genre-card:hover {
+  transform: scale(1.03);
+}
+
+.genre-card h3 {
+  position: relative;
+  z-index: 1;
+  color: var(--color-white);
+  font-size: 1.2rem;
+}
+
+.genre-card .play-btn {
+  position: relative;
+  z-index: 1;
+  align-self: flex-end;
+  width: 40px;
+  height: 40px;
+  padding: 0;
+  justify-content: center;
+  opacity: 0;
+  transition: var(--transition);
+}
+
+.genre-card:hover .play-btn {
+  opacity: 1;
+}
+
+/* Responsive Styles for Genres Page */
+@media (max-width: 1200px) {
+  .genres-grid {
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  }
+}
+
+@media (max-width: 992px) {
+  .genres-grid {
+    grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  }
+}
+
+@media (max-width: 768px) {
+  .genres-grid {
+    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+    gap: 1rem;
+  }
+  
+  .genre-card {
+    height: 100px;
+  }
+}
+
+@media (max-width: 576px) {
+  .genres-grid {
+    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+  }
+  
+  .genre-card h3 {
+    font-size: 1rem;
+  }
+}
